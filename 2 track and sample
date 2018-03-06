@@ -9,9 +9,9 @@ bob = [:g5, :fs5, :g5, :e5, :d5, :e5, :d5, :b, :g, :b]
 ariana = "C:/Users/liliana_gutierrez/One Last Time"
 #melody starts
 define :spongebob do
-  sample y ,amp: x
+  sample y ,amp: 1
   sleep 2
-  sample y , amp: x
+  sample y , amp: 1
   sleep 2
   x = x + 1
 end
